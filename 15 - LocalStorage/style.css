@@ -76,3 +76,19 @@
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
     }
+
+    #clear-all {
+      border: none;
+      padding: 10px;
+      margin-top: 15px;
+      -webkit-transition: color 0.25s, padding 0.5s, background-color 0.25s;
+      transition: color 0.25s, padding 0.5s, background-color 0.25s;
+    }
+
+    #clear-all:hover {
+      cursor: pointer;
+      background-color: red;
+      padding: 15px;
+      color: white;
+      background-color: red;
+    }
